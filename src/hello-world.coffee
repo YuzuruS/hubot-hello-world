@@ -8,8 +8,22 @@
 #   hubot hello - responds 'World!'
 #
 # Author:
-#   bouzuya <m@bouzuya.net>
+#   mikami
 
 module.exports = (robot) ->
-  robot.respond /hello/i, (msg) ->
-    msg.send 'World!'
+  robot.respond /(カイクマ|かいくま|kaikuma)$/i, (msg) ->
+    msg.send '界隈(かいわい)'
+  robot.respond /(やまな|ヤマナ|yamana)$/i, (msg) ->
+    msg.send '山菜(さんさい)'
+  robot.respond /(チ|ち|chi|ti)$/i, (msg) ->
+    msg.send '値(あたい)'
+  robot.respond /(いわ|イワ|iwa)$/i, (msg) ->
+    msg.send '祝(しゅく)'
+  robot.respond /(なります|ナリマス|narimasu)$/i, (msg) ->
+    msg.send '成松(なりまつ)'
+  robot.respond /(ミキオ|みきお|mikio)$/i, (msg) ->
+    msg.send '登岐央(ときお)'
+  robot.respond /(こまめ|コマメ|komame)$/i, (msg) ->
+    msg.send '小豆(あずき)'
+  robot.respond /(みかみ|ミカミ|三上|mikami)$/i, (msg) ->
+    msg.send 'やすのり'
