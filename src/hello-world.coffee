@@ -27,3 +27,5 @@ module.exports = (robot) ->
     msg.send '小豆(あずき)'
   robot.respond /(みかみ|ミカミ|三上|mikami)$/i, (msg) ->
     msg.send 'やすのり'
+  robot.respond /(うぃずよし|ウィズヨシ)$/i, (msg) ->
+    msg.send '「うぃずきち」だ。名前間違えるな。'
