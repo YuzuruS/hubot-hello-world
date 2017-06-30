@@ -29,3 +29,5 @@ module.exports = (robot) ->
     msg.send 'やすのり'
   robot.respond /(うぃずよし|ウィズヨシ)$/i, (msg) ->
     msg.send '「うぃずきち」だ。名前間違えるな。'
+  robot.respond /(まえざ|maeza|マエザ)$/i, (msg) ->
+    msg.send '前座(ぜんざ)'
